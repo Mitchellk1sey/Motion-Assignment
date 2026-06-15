@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>animation</title>
+    <style>
+        #park {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-image: url('grasstile.bmp');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .char {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: -500px;
+            left: -500px;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<button onclick="move()">move</button>
+
+<div id="park">
+    <img id="caveman" class="char" src="Caveman/running ne0000.bmp">
+    <img id="vlad" class="char" src="Vlad/running sw0000.bmp">
+</div>
+
+</body>
+</html>
